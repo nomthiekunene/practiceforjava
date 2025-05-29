@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+     <div id="myElement"><p>Hello, World!</p></div>
+    <button id="changeTextButton">Change Text</button>
+
+    <script>
+        const button = document.getElementById('changeTextButton');
+        button.addEventListener('click', function() {
+            const element = document.getElementById('myElement');
+            element.textContent = 'Text Changed!';
+            element.style.color = 'red';
+        });
+    </script>
+
+
+
+
+
+  <script src="index.js"></script>  
+</body>
+</html>
+
