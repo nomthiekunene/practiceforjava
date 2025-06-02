@@ -1,8 +1,8 @@
 // this is my first javascript code!
   let name = "Nomthandazo";
   console.log(name);
-    let age = 25;
-    console.log(age);
+    //let age = 25;
+   // console.log(age);
   let isStudent = true;
     console.log(isStudent);
     let hobbies = ["reading", "coding", "hiking"];  
@@ -19,7 +19,7 @@
     }
     let person = {
         name: "Nomthandazo",
-        age: 25,
+        //age: 25,
         isStudent: true,
         city: "Victoria Falls",
     };
@@ -53,4 +53,13 @@
     i--;
   }
 
+  let fname = "Nomthandazo";
+  let lname = "Kunene";
+let age = prompt("guess my age");
 
+let results = `${fname} ${lname} is ${age} years old`;
+alert(results);
+function welcome(user, message) {
+  alert(`Hello ${user}, ${message}`);
+  welcome("Nomthandazo", "welcome to my first javascript code!");
+}
